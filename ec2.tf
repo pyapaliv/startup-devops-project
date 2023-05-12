@@ -1,5 +1,5 @@
 # This block creates the web servers using the "aws_instance" resource. 
-# We're using the AMI ID that we fetched earlier, setting the instance type using the "instance_type" variable, and deploying the instances in the "eu-west-2a" availability zone. 
+# We're using the AMI ID that we fetched earlier, setting the instance type using the "instance_type" variable, and deploying the instances in the "us-east-1a" availability zone. 
 # We're also using a "count" parameter to create 4 instances, and we're naming each instance using the "Name" tag with a unique index number.
 #The "provisioner" block includes commands to install and start Apache on the instances using the remote-exec provisioner.
 
